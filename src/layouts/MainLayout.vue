@@ -5,7 +5,8 @@
         <q-header elevated class="text-white" behavior="sticky" style="background-color: #FE5E41;">
             <q-toolbar class="justify-between q-px-md q-py-sm">
                 <!-- Company Name -->
-                <div class="text-h5" style="color: #0B0500; cursor: pointer; display: flex; align-items: center;" @click="routerHome()">
+                <div class="text-h5" style="color: #0B0500; cursor: pointer; display: flex; align-items: center;"
+                    @click="routerHome()">
                     <img src="/images/handyman-logo.png" alt="Tomas Davies Handyman logo" height="70px" />
                     <p class="blink_me" style="color: #0B0500;">24 HOURS SERVICE</p>
                 </div>
@@ -24,10 +25,10 @@
 
         <!-- FOOTER -->
         <q-footer class="text-white q-px-md q-py-sm"
-            style="background-color: #3772FF; font-weight: 900; font-size: 18px;">
+            style="background-color: #0031A3; font-weight: 900; font-size: 18px;">
             <div class="row items-center justify-between">
                 <div class="col-auto">
-                    <div>tomasdubp@gmail.com</div>
+                    <div style="font-size: 12px;">Email: tomasdubp@gmail.com</div>
                 </div>
                 <div class="col-auto">
                     <div style="font-size: 12px;">© 2023 Tomas Davies Handyman. All Rights Reserved.</div>
