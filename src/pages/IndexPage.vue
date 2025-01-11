@@ -146,8 +146,8 @@ function goToService(service) {
 
 function resetForm() {
   formData.value.name = '',
-  formData.value.telephone = '',
-  formData.value.email = ''
+    formData.value.telephone = '',
+    formData.value.email = ''
 }
 </script>
 
@@ -226,5 +226,14 @@ h4 {
   color: white;
   /* Ensures text contrasts well */
   margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .text-content {
+    font-size: 18px;
+    line-height: 1.6;
+    width: 95%;
+    margin: 10px;
+  }
 }
 </style>

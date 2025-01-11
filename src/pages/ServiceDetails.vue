@@ -12,7 +12,8 @@
                     {{ serviceSubtitle }}
                 </p>
                 <q-btn label="Call Now" type="a" :href="'tel:' + phoneNumber" class="q-my-md q-py-md text-bold"
-                style="background-color: #242331; color: #DFF8EB; font-size: 25px; width: 80%; align-self: center;" rounded />
+                    style="background-color: #242331; color: #DFF8EB; font-size: 25px; width: 80%; align-self: center;"
+                    rounded />
             </div>
         </section>
 
@@ -73,34 +74,38 @@ const heroStyle = computed(() => {
 }
 
 .service-hero-section {
-  position: relative;
-  min-height: 60vh;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    position: relative;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Overlay */
 .service-hero-section .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
-  z-index: 1; /* Behind the content */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black overlay with 50% opacity */
+    z-index: 1;
+    /* Behind the content */
 }
 
 /* Hero Content */
 .service-hero-section .hero-content {
-  position: relative;
-  z-index: 2; /* Above the overlay */
-  color: white; /* Ensure text color contrasts */
-  max-width: 600px;
-  margin: auto;
+    position: relative;
+    z-index: 2;
+    /* Above the overlay */
+    color: white;
+    /* Ensure text color contrasts */
+    max-width: 600px;
+    margin: auto;
 }
 
 .service-detail-page {
@@ -125,5 +130,14 @@ const heroStyle = computed(() => {
 .service-description {
     background-color: #fafafa;
     /* o #FCF9EE, como en tu 'services-section' */
+}
+
+@media only screen and (max-width: 480px) {
+    .text-content {
+        font-size: 18px;
+        line-height: 1.6;
+        width: 95%;
+        margin: 10px;
+    }
 }
 </style>
