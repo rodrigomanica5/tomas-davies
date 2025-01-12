@@ -7,7 +7,7 @@
                 <!-- Company Name -->
                 <div class="text-h5" style="color: #0B0500; cursor: pointer; display: flex; align-items: center;"
                     @click="routerHome()">
-                    <img src="/images/handyman-logo.png" alt="Tomas Davies Handyman logo" height="70px" />
+                    <img src="/images/handyman-logo.png" alt="HandyPro Cleaners logo" height="70px" />
                     <p class="blink_me" style="color: #0B0500;">24 HOURS SERVICE</p>
                 </div>
 
@@ -31,7 +31,7 @@
                     <div style="font-size: 12px;">Email: tomasdubp@gmail.com</div>
                 </div>
                 <div class="col-auto">
-                    <div style="font-size: 12px;">© 2023 Tomas Davies Handyman. All Rights Reserved.</div>
+                    <div style="font-size: 12px;">© 2023 HandyPro Cleaners. All Rights Reserved.</div>
                 </div>
             </div>
         </q-footer>

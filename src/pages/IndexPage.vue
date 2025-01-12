@@ -8,10 +8,10 @@
         <!-- Overlay -->
         <div class="overlay"></div>
         <div class="hero-content column">
-          <h1 class="text-h2 text-bold text-white">TOMAS DAVIES HANDYMAN</h1>
+          <h1 class="text-h2 text-bold text-white">HandyPro Cleaners</h1>
           <p class="text-subtitle1 text-white q-my-sm subtitle">
             Don’t let that squeak ruin your week. <br>
-            Favorite handyman in the Florida Keys!
+            We are your favorite handymen in the Florida Keys!
           </p>
           <q-btn label="Call Now" type="a" :href="'tel:' + phoneNumber" class="q-my-md q-py-md text-bold"
             style="background-color: #242331; color: #DFF8EB; font-size: 25px; width: 80%; align-self: center;"
@@ -24,11 +24,11 @@
         <div class="text-center">
           <h2 class="text-h4 text-bold q-mb-sm">About Us</h2>
           <p class="text-body1 q-pt-lg text-content">
-            Tomas Davies is a highly skilled handyman based in Key West, Florida, bringing years of hands-on experience
-            to every project. He delivers meticulous craftsmanship rooted in professionalism and open communication,
-            ensuring that each task—whether a small home repair or a complex renovation—is completed to the highest
-            standard. With a deep commitment to quality, safety, and customer satisfaction, Tomas offers reliable
-            solutions that protect your property’s comfort, appearance, and value.
+            We are a team of skilled handymen based in Key West, Florida, bringing years of hands-on experience to every
+            project. We deliver meticulous craftsmanship, professionalism, and open communication, ensuring that each
+            task—whether a small home repair or a complex renovation—is completed to your standards. With a deep
+            commitment to quality, safety, and customer satisfaction, we offer reliable solutions that maintain your
+            property’s appearance and value.
           </p>
         </div>
       </section>
@@ -63,7 +63,7 @@
         </div>
         <div class="row justify-center">
           <div class="col-12 col-sm-8 col-md-6">
-            <q-form action="https://formsubmit.co/rodrigomanica5@gmail.com" method="POST">
+            <q-form action="https://formsubmit.co/tomasdubp@gmail.com" method="POST">
               <q-card flat bordered class="q-pa-md">
                 <!-- Dropdown para seleccionar el servicio -->
                 <q-select v-model="selectedService" :options="serviceOptions" name="Service" label="Select Service"

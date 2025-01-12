@@ -22,7 +22,8 @@ const routes = [
             ? {
                 serviceTitle: foundService.title,
                 serviceImage: foundService.image,
-                serviceDescription: foundService.description
+                serviceDescription: foundService.description,
+                bulletPoints: foundService.bulletPoints
               }
             : {}
         }

@@ -27,6 +27,16 @@
                     {{ serviceDescription }}
                 </p>
             </div>
+
+            <!-- BULLET POINTS -->
+            <div v-if="bulletPoints && bulletPoints.length" class="bullet-points q-my-xl">
+                <ul class="text-left">
+                    <li v-for="(point, index) in bulletPoints" :key="index" class="q-mb-md">
+                        <h3 class="text-h6 text-bold">{{ point.title }}</h3>
+                        <p class="text-body2">{{ point.description }}</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </div>
 </template>
@@ -47,6 +57,10 @@ const props = defineProps({
     serviceDescription: {
         type: String,
         default: ''
+    },
+    bulletPoints: {
+        type: Array,
+        default: () => []
     }
 })
 
@@ -130,6 +144,33 @@ const heroStyle = computed(() => {
 .service-description {
     background-color: #fafafa;
     /* o #FCF9EE, como en tu 'services-section' */
+}
+
+.bullet-points {
+    margin: auto;
+    width: 90%;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.bullet-points ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.bullet-points li {
+    margin-bottom: 20px;
+}
+
+.bullet-points h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.bullet-points p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
 }
 
 @media only screen and (max-width: 480px) {
