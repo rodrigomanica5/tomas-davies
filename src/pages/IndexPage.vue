@@ -8,9 +8,9 @@
         <!-- Overlay -->
         <div class="overlay"></div>
         <div class="hero-content column">
-          <h1 class="text-h2 text-bold text-white">HandyPro Cleaners</h1>
+          <h1 class="text-h2 text-bold text-white">HandyTom Pest Solutions</h1>
           <p class="text-subtitle1 text-white q-my-sm subtitle">
-            Don’t let that squeak ruin your week. <br>
+            Protect your space, eliminate pests. <br>
             We are your favorite handymen in the Florida Keys!
           </p>
           <q-btn label="Call Now" type="a" :href="'tel:' + phoneNumber" class="q-my-md q-py-md text-bold"

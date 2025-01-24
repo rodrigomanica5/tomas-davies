@@ -3,7 +3,7 @@ export const services = [
     slug: 'pests-bed-bugs-cleanup',
     title: 'Pests & Bed Bugs Extermination',
     image: '/images/pests-bed-bugs.jpg',
-    description: "We offer a specialized “Pests & Bed Bugs” extermination service that uses cutting-edge technology for heat treatments in areas up to 600 square feet. Our equipment includes the ePro 600 and the AM 4000 high-temperature fan (4,000 CFM), designed to swiftly and effectively eradicate bed bugs. Thanks to its flexible electrical requirements —allowing the use of multiple cords and even a 20A PTAC outlet— this method is ideal for hotels, apartments, and any space equipped with the necessary power supply. This procedure guarantees a professional, chemical-free solution to maintain a safe and healthy environment.",
+    description: "We offer a specialized “Pests & Bed Bugs” extermination service that uses cutting-edge technology for heat treatments. Our equipment includes the ePro 600 and the AM 4000 high-temperature fan (4,000 CFM), designed to swiftly and effectively eradicate bed bugs. Thanks to its flexible electrical requirements —allowing the use of multiple cords and even a 20A PTAC outlet— this method is ideal for hotels, apartments, houses and any space equipped with the necessary power supply. This procedure guarantees a professional, chemical-free solution to maintain a safe and healthy environment.",
     bulletPoints: [
       {
         title: "Initial Inspection",
@@ -11,11 +11,11 @@ export const services = [
       },
       {
         title: "Space Preparation",
-        description: "We protect sensitive elements, such as fire sprinklers, and ensure access to appropriate power sources."
+        description: "We protect sensitive elements, and ensure access to appropriate power sources."
       },
       {
         title: "Equipment Setup",
-        description: "We configure the heat treatment system, including the ePro 600 and the AM 4000 high-temperature fan."
+        description: "We configure the heat treatment system, including the ePro 600, ePro400 and the AM 4000 high-temperature fan."
       },
       {
         title: "Heat Application",
@@ -62,27 +62,71 @@ export const services = [
     ]
   },
   {
-    slug: 'painting-and-carpentry',
-    title: 'Painting & Carpentry',
+    slug: "carpentry-roofing-decks",
+    title: "Carpentry, Roofing & Decks",
     image: '/images/painting-carpentry.jpg',
-    description: "Our professional painting and carpentry service is designed to enhance the appearance, functionality, and value of your property. Whether you need a fresh coat of paint, custom woodwork, or repairs, our skilled team delivers exceptional craftsmanship and attention to detail. With our expertise, you’ll enjoy beautifully crafted results that meet your needs and elevate your home or business.",
+    description: "Our expert carpentry, roofing, and deck services are designed to enhance the durability, functionality, and aesthetic appeal of your property. Whether you need custom woodwork, a sturdy new roof, or a beautifully crafted deck.",
     bulletPoints: [
       {
-        title: "Interior and Exterior Painting",
-        description: "High-quality finishes to refresh and protect your spaces."
+        title: "Roof Installation and Repair",
+        description: "Durable roofing solutions, including installation, maintenance, and repairs for long-term protection."
+      },
+      {
+        title: "Deck Construction and Restoration",
+        description: "Decks designed to enhance your outdoor space, built for strength and style."
       },
       {
         title: "Custom Carpentry",
-        description: "Tailored woodwork, including cabinets, shelving, and trim."
+        description: "Tailored woodwork, including shelving, moldings, and structures adapted to your needs."
       },
       {
-        title: "Repairs and Restoration",
-        description: "Fixing and restoring damaged woodwork, walls, and surfaces."
+        title: "Structural Repairs and Improvements",
+        description: "Maintenance and restoration of wooden structures to reinforce the safety and functionality of your property."
+      },
+    ]
+  },
+  {
+    "slug": "construction-cleanup-material-disposal",
+    "title": "Construction Cleanup & Material Disposal",
+    "image": "/images/construction-cleanup.jpg",
+    "description": "We provide professional construction cleanup and material disposal services to keep your property safe, organized, and debris-free. Whether you’re completing a renovation, replacing a roof, or removing an old deck, our team efficiently handles waste removal so you can focus on your project. From scrap wood to old roofing materials, we ensure proper disposal, leaving your space clean and ready for the next phase.",
+    "bulletPoints": [
+      {
+        "title": "Old Roofing Material Removal",
+        "description": "We safely remove and dispose of shingles, underlayment, and damaged roofing components."
       },
       {
-        title: "Precision and Care",
-        description: "Ensuring clean, precise lines and seamless installations."
+        "title": "Lumber & Scrap Wood Disposal",
+        "description": "Clearing out unwanted wood, including old framing, decking, and construction scraps."
       },
+      {
+        "title": "Deck & Patio Demolition Cleanup",
+        "description": "We dismantle and remove old decks, patios, and other outdoor structures efficiently."
+      },
+      {
+        "title": "Metal & Construction Debris Removal",
+        "description": "Scrap metal, nails, fasteners, and general construction debris—properly sorted and removed."
+      },
+      {
+        "title": "Siding & Insulation Disposal",
+        "description": "We handle old insulation, siding materials, and other exterior waste safely and effectively."
+      },
+      {
+        "title": "Flooring & Subfloor Removal",
+        "description": "Eliminating old floorboards, tiles, and subflooring to prepare for new installations."
+      },
+      {
+        "title": "Drywall & Plaster Cleanup",
+        "description": "Proper disposal of old drywall, plaster, and wall materials after renovations or repairs."
+      },
+      {
+        "title": "Window & Door Removal",
+        "description": "We take care of removing outdated or damaged windows, doors, and frames."
+      },
+      {
+        "title": "Concrete & Brick Waste Removal",
+        "description": "Clearing out excess concrete, bricks, and masonry waste from construction sites."
+      }
     ]
   },
   {
@@ -95,7 +139,7 @@ export const services = [
     slug: 'hoarding-cleanup',
     title: 'Hoarding Cleanup',
     image: '/images/hoarding.jpeg',
-    description: "Living amidst excessive clutter can be overwhelming and hazardous. We offer compassionate and discreet hoarding cleanup services, ensuring your space is clear, organized, and safe. We handle every item with care, respecting your belongings while helping you reclaim a comfortable living environment. Take the first step toward a healthier, more functional space—contact us today and let us restore peace and order to your home."
+    description: "We offer compassionate and discreet hoarding cleanup services, ensuring your space is clear, organized, and safe. We handle every item with care, respecting your belongings while helping you reclaim a comfortable living environment. Take the first step toward a healthier, more functional space—contact us today and let us restore peace and order to your home."
   },
   {
     slug: 'feces-urine-cleaning',

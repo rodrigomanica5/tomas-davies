@@ -1,7 +1,7 @@
 <template>
   <div class="thank-you-page">
     <div class="thank-you-content">
-      <img src="/images/handyman-logo.png" alt="HandyPro Cleaners logo" height="200px">
+      <img src="/images/handyman-logo.png" alt="HandyTom Pest Solutions logo" height="200px">
       <h1>Thank you for submitting your message!</h1>
       <h3>You will be redirected to our Home Page in 5 seconds...</h3>
     </div>
