@@ -88,7 +88,7 @@ export const services = [
   {
     "slug": "construction-cleanup-material-disposal",
     "title": "Construction Cleanup & Material Disposal",
-    "image": "/images/construction-cleanup.jpg",
+    "image": "/images/construction-cleanup.png",
     "description": "We provide professional construction cleanup and material disposal services to keep your property safe, organized, and debris-free. Whether you’re completing a renovation, replacing a roof, or removing an old deck, our team efficiently handles waste removal so you can focus on your project. From scrap wood to old roofing materials, we ensure proper disposal, leaving your space clean and ready for the next phase.",
     "bulletPoints": [
       {
@@ -164,5 +164,33 @@ export const services = [
     title: 'Sewage Backup Cleanup',
     image: '/images/sewage-clean-up.jpg',
     description: "A sewage backup can quickly escalate into a dangerous situation, creating unpleasant odors and threatening your health. With our services, you get rapid response and expert remediation. We remove contaminated water, thoroughly disinfect affected areas, and ensure the problem is fully resolved to prevent future issues. Don’t let sewage problems linger—call us today for reliable cleanup and restoration that safeguards your property and peace of mind."
+  },
+  {
+    slug: 'heat-disinfection',
+    title: 'Heat Disinfection',
+    image: '/images/heat-disinfection.jpg',
+    description: "Our advanced GreenTech Heat Solution technology provides effective thermal disinfection, eliminating pests at all life stages without the risks associated with chemical treatments. Unlike traditional pesticides, heat penetrates deep into infested areas, killing not only adult insects but also their eggs, ensuring a complete eradication in just one treatment. This method is 100% safe for humans and pets, while also reducing allergens, bacteria, and dust mites in treated spaces.",
+    bulletPoints: [
+      {
+        title: "One-Day Treatment",
+        description: "Achieve full disinfection in a single day, unlike chemical treatments that may take weeks or months."
+      },
+      {
+        title: "Complete Pest Elimination",
+        description: "Effectively kills insects at all life stages, including eggs, ensuring total eradication."
+      },
+      {
+        title: "No Toxic Chemicals",
+        description: "A completely chemical-free solution, making it safe for people, pets, and the environment."
+      },
+      {
+        title: "Antibacterial & Allergen Reduction",
+        description: "Eliminates bacteria, reduces allergens, and neutralizes dust mites, creating a healthier environment."
+      },
+      {
+        title: "Eco-Friendly & Safe",
+        description: "A sustainable approach to pest control that avoids harmful residues and chemical exposure."
+      }
+    ]
   }
 ]

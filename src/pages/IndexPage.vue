@@ -63,7 +63,7 @@
         </div>
         <div class="row justify-center">
           <div class="col-12 col-sm-8 col-md-6">
-            <q-form action="https://formsubmit.co/tomasdubp@gmail.com" method="POST">
+            <q-form action="https://formsubmit.co/handytompestsolutions@gmail.com" method="POST">
               <q-card flat bordered class="q-pa-md">
                 <!-- Dropdown para seleccionar el servicio -->
                 <q-select v-model="selectedService" :options="serviceOptions" name="Service" label="Select Service"

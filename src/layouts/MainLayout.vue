@@ -28,7 +28,7 @@
             style="background-color: #0031A3; font-weight: 900; font-size: 18px;">
             <div class="row items-center justify-between">
                 <div class="col-auto">
-                    <div style="font-size: 12px;">Email: tomasdubp@gmail.com</div>
+                    <div style="font-size: 12px;">Email: handytompestsolutions@gmail.com</div>
                 </div>
                 <div class="col-auto">
                     <div style="font-size: 12px;">© 2023 HandyTom Pest Solutions. All Rights Reserved.</div>
