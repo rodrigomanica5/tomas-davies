@@ -8,7 +8,7 @@
                 <div class="text-h5" style="color: #0B0500; cursor: pointer; display: flex; align-items: center;"
                     @click="routerHome()">
                     <img src="/images/handyman-logo.png" alt="HandyTom Pest Solutions logo" height="70px" />
-                    <p class="blink_me" style="color: #0B0500;">24 HOURS SERVICE</p>
+                    <p class="blink_me" style="color: #0B0500;">24 HOUR SERVICE</p>
                 </div>
 
                 <!-- Call To Action: Phone Number -->
