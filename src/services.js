@@ -55,10 +55,6 @@ export const services = [
         title: "Versatility",
         description: "Suitable for various materials such as concrete, brick, wood, and more."
       },
-      {
-        title: "Deep Cleaning",
-        description: "Removes stubborn buildup that affects the appearance and safety of your spaces."
-      },
     ]
   },
   {
@@ -169,7 +165,7 @@ export const services = [
     slug: 'heat-disinfection',
     title: 'Heat Disinfection',
     image: '/images/heat-disinfection.jpg',
-    description: "Our advanced GreenTech Heat Solution technology provides effective thermal disinfection, eliminating pests at all life stages without the risks associated with chemical treatments. Unlike traditional pesticides, heat penetrates deep into infested areas, killing not only adult insects but also their eggs, ensuring a complete eradication in just one treatment. This method is 100% safe for humans and pets, while also reducing allergens, bacteria, and dust mites in treated spaces.",
+    description: "Advanced GreenTech Heat Solution technology provides effective thermal disinfection, eliminating pests at all life stages without the risks associated with chemical treatments. Unlike traditional pesticides, heat penetrates deep into infested areas, killing not only adult insects but also their eggs, ensuring a complete eradication in just one treatment. This method is 100% safe for humans and pets, while also reducing allergens, bacteria, and dust mites in treated spaces.",
     bulletPoints: [
       {
         title: "One-Day Treatment",
