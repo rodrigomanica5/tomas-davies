@@ -65,7 +65,7 @@ const props = defineProps({
 })
 
 // Teléfono de ejemplo (puedes ponerlo en props también si quieres)
-const phoneNumber = '4086056883'
+const phoneNumber = '3052401641'
 
 // Computed para aplicar el background al hero
 const heroStyle = computed(() => {

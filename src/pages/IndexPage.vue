@@ -121,7 +121,7 @@ import { services } from 'src/services.js'
 
 const router = useRouter()
 
-const phoneNumber = '4086056883'
+const phoneNumber = '3052401641'
 
 const serviceOptions = services.map((srv) => ({
   label: srv.title,

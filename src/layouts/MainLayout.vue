@@ -12,7 +12,7 @@
                 </div>
 
                 <!-- Call To Action: Phone Number -->
-                <q-btn label="CALL US TODAY! (408) 605 6883" type="a" :href="'tel:' + phoneNumber"
+                <q-btn label="CALL US TODAY! (305) 240-1641" type="a" :href="'tel:' + phoneNumber"
                     class="q-ml-md text-bold text-subtitle1" style="background-color: #FCF9EE; color: #0B0500;"
                     rounded />
             </q-toolbar>
@@ -40,7 +40,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-const phoneNumber = '4086056883'
+const phoneNumber = '3052401641'
 const router = useRouter()
 
 function routerHome() {
