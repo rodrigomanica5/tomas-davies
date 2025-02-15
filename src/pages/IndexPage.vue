@@ -90,7 +90,7 @@
                   ]" />
 
                 <!-- Inputs ocultos para configuraciones de FormSubmit -->
-                <input type="hidden" name="_next" value="http://localhost:9000/#/thank-you">
+                <input type="hidden" name="_next" value="http://handytompestsolutions.com/#/thank-you">
                 <input type="hidden" name="_subject" value="New Quote Request">
                 <input type="hidden" name="_captcha" value="true">
 
