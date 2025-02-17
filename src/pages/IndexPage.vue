@@ -89,6 +89,13 @@
                     val => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val) || 'Please enter a valid email address'
                   ]" />
 
+                <!-- Textarea para detallar brevemente el servicio -->
+                <q-input v-model="formData.serviceDetails" name="ServiceDetails" label="Details of the Service"
+                  type="textarea" dense filled class="q-mb-md" lazy-rules :rules="[
+                    val => val && val.trim().length > 0 || 'Please provide some details',
+                    val => val.trim().length <= 300 || 'Please limit your description to 300 characters'
+                  ]" :rows="5" maxlength="300" />
+
                 <!-- Inputs ocultos para configuraciones de FormSubmit -->
                 <input type="hidden" name="_next" value="https://www.handytompestsolutions.com/#/thank-you">
                 <input type="hidden" name="_subject" value="New Quote Request">
@@ -101,8 +108,9 @@
 
                 <!-- Botón para reiniciar el formulario -->
                 <div class="text-center q-mt-sm">
-                  <q-btn v-if="formData.name || formData.email || formData.telephone || selectedService" label="Reset"
-                    type="button" color="#0B0500" flat class="text-bold" @click="resetForm" />
+                  <q-btn
+                    v-if="formData.name || formData.email || formData.telephone || selectedService || formData.serviceDetails"
+                    label="Reset" type="button" color="#0B0500" flat class="text-bold" @click="resetForm" />
                 </div>
               </q-card>
             </q-form>
@@ -132,7 +140,8 @@ const selectedService = ref(null)
 const formData = ref({
   name: '',
   telephone: '',
-  email: ''
+  email: '',
+  serviceDetails: ''
 })
 
 function goToService(service) {
@@ -148,6 +157,7 @@ function resetForm() {
   formData.value.name = '',
     formData.value.telephone = '',
     formData.value.email = ''
+  formData.value.serviceDetails = ''
 }
 </script>
 
